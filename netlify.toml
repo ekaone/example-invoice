@@ -1,6 +1,6 @@
 [build]
-  command = "yarn && yarn build"
-  functions = "api/dist/packaged"
+  command = "yarn rw build"
+  functions = "api/dist"
   publish = "web/dist"
 
 [[redirects]]

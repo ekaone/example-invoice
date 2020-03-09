@@ -1,7 +1,7 @@
 [build]
-  command = "yarn rw build"
-  functions = "api/dist"
+  command = "yarn rw db up --no-db-client && yarn rw build"
   publish = "web/dist"
+  functions = "api/dist/functions"
 
 [[redirects]]
   from = "/*"

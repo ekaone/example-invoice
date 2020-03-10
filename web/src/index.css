@@ -76,6 +76,9 @@ tbody td {
   height: 48px;
   border: 1px solid #d4d6d9;
 }
+tfoot {
+  border-top: 1px solid #d4d6d9;
+}
 
 th input,
 th textarea {

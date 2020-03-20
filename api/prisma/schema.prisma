@@ -1,4 +1,4 @@
-datasource DS {
+datasource sqlite {
   provider = "postgresql"
   url      = env("DB_HOST")
 }
